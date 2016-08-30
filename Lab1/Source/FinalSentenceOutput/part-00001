@@ -1,0 +1,6 @@
+(Spark is a free and open-source software web application framework and domain-specific language written in Java,16)
+(Inspired by Sinatra, it does not follow the model�view�controller pattern used in other frameworks, such as Spring MVC,18)
+( It is an alternative to other Java web application frameworks such as JAX-RS, Play framework and Spring MVC,19)
+( Spark was created and open-sourced in 2011 by Per Wendel, and was completely rewritten for version 2 in 2014,20)
+( It runs on an embedded Jetty web server by default, but can be configured to run on other webservers,20)
+( The rewrite was hugely centered on the Java 8 lambda philosophy, so Java 7 is officially not supported in version 2 and above,24)
