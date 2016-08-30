@@ -1,0 +1,5 @@
+(Inspired by Sinatra, it does not follow the model�view�controller pattern used in other frameworks, such as Spring MVC,1)
+(Instead, Spark is intended for quickly creating web-applications in Java with minimal effort,1)
+(It is an alternative to other Java web application frameworks such as JAX-RS, Play framework and Spring MVC,1)
+(It is to be used in the Spark word count program,2)
+(It runs on an embedded Jetty web server by default, but can be configured to run on other webservers,1)
