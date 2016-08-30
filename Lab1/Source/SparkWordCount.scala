@@ -12,11 +12,15 @@ object SparkWordCount {
     val input = sc.textFile(args(0));
 
     // count # of sentences
-    val sentCount = input.flatMap(line => line.split('.')).map(sentence => (sentence, 1);
+    val sentCount = input.flatMap(line => line.split('.')).map(sentence => (sentence, 1));
     val preSentOutput = sentCount.reduceByKey(_+_);
+    // find total count
+    val total = input.map(file => (file, file.split('.').length))
+    total.saveAsTextFile(args(1));
     // sort alphabetically
     val sentOutput = preSentOutput.sortByKey(true);
-    sentOutput.saveAsTextFile(args(1));
+    sentOutput.saveAsTextFile(args(2));
+
   }
 
 }
